@@ -2,7 +2,7 @@
 #[macro_use]
 extern crate log;
 
-use fast_socks5::{
+use fast_vless::{
     client,
     server::{transfer, Socks5ServerProtocol},
     util::target_addr::TargetAddr,

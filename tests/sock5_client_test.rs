@@ -1,9 +1,9 @@
-use tokio::net::{TcpListener};
+use tokio::net::TcpListener;
 use tokio::io::{self, AsyncReadExt, AsyncWriteExt};
 use std::time::Duration;
 use tokio::time::timeout;
 use tokio_test::assert_ok;
-use fast_socks5::client::{Config, Socks5Stream};
+use fast_vless::client::{Config, Socks5Stream};
 
 #[tokio::test]
 async fn test_socks5_connection() -> io::Result<()> {

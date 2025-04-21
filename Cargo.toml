@@ -1,11 +1,11 @@
 [package]
-name = "fast-socks5"
-version = "1.0.0-rc.0"
-authors = ["Jonathan Dizdarevic <dizzda@gmail.com>"]
+name = "fast_vless"
+version = "0.0.1"
+authors = ["https://github.com/firewallPass"]
 edition = "2021"
 license = "MIT"
-description = "Fast SOCKS5 client/server implementation written in Rust async/.await (tokio)"
-repository = "https://github.com/dizda/fast-socks5"
+description = "Fast vless client/server implementation written in Rust async/.await (tokio)"
+repository = "https://github.com/firewallPass/fast-vless"
 categories = [
     "asynchronous",
     "network-programming",

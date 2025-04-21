@@ -4,7 +4,7 @@ extern crate log;
 
 use std::net::{IpAddr, Ipv4Addr, Ipv6Addr, SocketAddr};
 
-use fast_socks5::{client::Socks5Datagram, Result};
+use fast_vless::{client::Socks5Datagram, Result};
 use structopt::StructOpt;
 use tokio::{
     io::{AsyncRead, AsyncWrite},

@@ -3,7 +3,7 @@
 extern crate log;
 
 use anyhow::Context;
-use fast_socks5::{
+use fast_vless::{
     server::{run_tcp_proxy, run_udp_proxy, DnsResolveHelper as _, Socks5ServerProtocol},
     ReplyError, Result, Socks5Command, SocksError,
 };

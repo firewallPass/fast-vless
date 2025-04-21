@@ -2,7 +2,7 @@
 #[macro_use]
 extern crate log;
 
-use fast_socks5::{
+use fast_vless::{
     auth_method_enums,
     server::{
         run_tcp_proxy, AuthMethod, AuthMethodSuccessState, DnsResolveHelper as _,
